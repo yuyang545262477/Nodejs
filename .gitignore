@@ -55,5 +55,5 @@ fabric.properties
 .idea/inspectionProfiles/
 .idea/jsLibraryMappings.xml
 .idea/modules.xml
-node-example/.idea/inspectionProfiles/
-node-example/.idea/workspace.xml
+node-example/.idea/**/*
+
