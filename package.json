@@ -1,0 +1,8 @@
+{
+  "name": "Nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yuyang545262477/Nodejs.git",
+  "author": "David Yu <yuyang545262477@gmail.com>",
+  "license": "MIT"
+}
