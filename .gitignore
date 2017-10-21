@@ -56,3 +56,7 @@ fabric.properties
 .idea/modules.xml
 node-example/.idea/**/*
 node-http/.idea/**/*
+node-express/.idea/
+node-express/node_modules/
+node-express/yarn.lock
+node-http/npm-debug.log
