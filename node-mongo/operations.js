@@ -28,7 +28,7 @@ exports.removeDocument = (db, document, collection, callback) => {
 
 exports.updateDocument = (db, document, update, collection, callback) => {
     const coll = db.collection(collection);
-    coll.updateOne(document, {$set, update}, null, (err, result) => {
+    coll.updateOne(document, {$set: update}, null, (err, result) => {
         assert.equal(err, null);
         console.log(`Update the document with ${update}`);
         callback(result);
